@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box; 
+}
+body {
+    margin: 0;
+}
+.main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+    height: 40vw;
+}
+.main  article {
+    flex: 1;
+}
+.main > nav {
+    flex: 0 0 15vw;
+    background: beige;
+}
+header, article, nav,aside {
+    padding: 1em;
+}
+header {
+    background: rgb(199, 199, 199);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-body {
+    margin-top: 20px;
+}
+form div.row {
+    margin-left:1px;
+}
+#costOrder {
+    font-weight: bold;
+}
+.container article{
+    display:flex;
+}
+.container .card:first-child {
+    margin-right: 20px;
+    min-width: 448.80px;
+}
+.order {
+    max-width: 320px;   
+}
+.container .order {
+    min-width: 250px;
+    display:none;
+}
+.order p {
+    margin: 1px;
+}
+.order .card-body {
+    margin-top: 5px;
+}
+.alignCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item a:hover {
+    cursor: pointer;
+}
+
+  
